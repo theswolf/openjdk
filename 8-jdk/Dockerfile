@@ -58,7 +58,7 @@ RUN set -ex; \
 		openjdk-8-jdk="$JAVA_DEBIAN_VERSION" \
 		ca-certificates-java="$CA_CERTIFICATES_JAVA_VERSION" \
 	; \
-	rm -rf /var/lib/apt/lists/*; \
+	rm -rf /var/lib/apt/lists/*
 #	\
 # verify that "docker-java-home" returns what we expect
 #	[ "$(readlink -f "$JAVA_HOME")" = "$(docker-java-home)" ]; \
