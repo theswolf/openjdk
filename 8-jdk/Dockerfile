@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM buildpack-deps:stretch-scm
+FROM buildpack-deps:xenial-scm
 
 # A few reasons for installing distribution-provided OpenJDK:
 #
